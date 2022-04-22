@@ -1,5 +1,5 @@
 const poke_container = document.getElementById('poke_container');
-const pokemons_number = 150;
+const pokemons_number = 898;
 const colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
@@ -45,9 +45,11 @@ function createPokemonCard(pokemon) {
     pokemonEl.style.backgroundColor = color;
 
     const pokeInnerHTML = `
+    <div class="container">
         <div class="img-container">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" alt="${name}" />
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png"alt="${name}" />
         </div>
+    </div>
         <div class="info">
             <span class="number">#${pokemon.id.toString().padStart(3, '0')}</span>
             <h3 class="name">${name}</h3>
