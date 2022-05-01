@@ -17,7 +17,7 @@ const colors = {
     normal: '#F5F5F5',
     dark: '#73736c',
     ghost: '#c76fbe',
-    ics: '#73fdff'
+    ice: '#73fdff'
 };
 const main_types = Object.keys(colors);
 
