@@ -16,7 +16,8 @@ const colors = {
     fighting: '#E6E0D4',
     normal: '#F5F5F5',
     dark: '#73736c',
-    ghost: '#c76fbe'
+    ghost: '#c76fbe',
+    ics: '#73fdff'
 };
 const main_types = Object.keys(colors);
 
